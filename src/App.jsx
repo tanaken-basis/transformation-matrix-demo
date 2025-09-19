@@ -35,8 +35,9 @@ import { MathJaxContext, MathJax } from "better-react-mathjax";
 
 // ---- MathJax ----
 const mjConfig = {
+  loader: { load: ["[tex]/color", "[tex]/textmacros"] },
   tex: {
-    packages: { "[+]": ["ams"] }, // bmatrix/pmatrix 等
+    packages: { "[+]": ["ams", "color", "textmacros"] }, // bmatrix/pmatrix 等
     inlineMath: [["$", "$"], ["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"], ["$$", "$$"]],
   },
