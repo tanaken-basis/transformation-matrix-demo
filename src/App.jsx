@@ -87,7 +87,7 @@ const translations = {
     btn_applyTrans: "並進を適用",
     btn_applyRot: "回転を適用",
     footer_note: "表記について：THREE.Matrix4 は列優先（column-major）です。上の行列表示は行ごとに並べ、列は [right, up, forward, position] に対応します。",
-    ui_language: "言語 ",
+    ui_language: "Language ",
     presision: "桁数",
   }
 };
