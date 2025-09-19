@@ -5,7 +5,7 @@
 
 ![screenshot](img/transformation-matrix-demo_example_ja.png)
 
-このプロジェクトは **React + three.js + MathJax** を用いた Web アプリです。3D 空間に配置したオブジェクト(青い箱)の **4×4 変換行列 (位置と向き)** を可視化し、ワールド座標系／ローカル座標系での平行移動・回転を体験的に理解することができます。
+この「変換行列のデモ」は **React + three.js + MathJax** を用いた Web アプリです。3D 空間に配置したオブジェクト(青い箱)の **4×4 変換行列 (位置と向き)** を可視化し、ワールド座標系／ローカル座標系での平行移動・回転を体験的に理解することができます。
 
 - **3D 描画**: three.js + OrbitControls
 - **数式表示**: better-react-mathjax (MathJax v3)
